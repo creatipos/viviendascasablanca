@@ -113,7 +113,7 @@ class HomeController extends Controller
                 // 'user_query' => $request->get('message'),
             ), function($message) use ($request){
                 $message->from($request->email);
-                $message->to('creatiposweb@gmail.com', 'Admin')->subject('Contacto desde la web');
+                $message->to('contacto@viviendascasablanca.com', 'Admin')->subject('Contacto desde la web');
             });
     
             return back()->with('success', 'Su mensaje se envio correctamente, nos pondremos en contacto con usted.');
