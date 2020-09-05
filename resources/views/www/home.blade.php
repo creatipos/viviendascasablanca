@@ -14,7 +14,7 @@
           <div class="inner">
             <h1>Vivienda <b>Prefabricadas</b></h1>
             <p>We building ambientic living spaces for families</p>
-            <a href="#">EXPLORE FLATS <i class="lni lni-arrow-right"></i></a> </div>
+            <a href="#">VER MAS  <i class="lni lni-arrow-right"></i></a> </div>
           <!-- end inner --> 
         </div>
         <!-- end swiper-slide -->
@@ -22,15 +22,15 @@
           <div class="inner">
             <h2>VIVIENDA <b>1038</b></h2>
             <p>We building ambientic living spaces for families</p>
-            <a href="#">SEE ALL CATALOGUE <i class="lni lni-arrow-right"></i></a> </div>
+            <a href="#">VER MAS <i class="lni lni-arrow-right"></i></a> </div>
           <!-- end inner --> 
         </div>
         <!-- end swiper-slide -->
         <div class="swiper-slide">
           <div class="inner">
-            <h2>Mock <b>Living</b> Environment</h2>
+            <h2>VIVIENDA <b>1055</b></h2>
             <p>We building ambientic living spaces for families</p>
-            <a href="#">DISCOVER CONSTO <i class="lni lni-arrow-right"></i></a> </div>
+            <a href="#">VER MAS <i class="lni lni-arrow-right"></i></a> </div>
           <!-- end inner --> 
         </div>
         <!-- end swiper-slide --> 
@@ -64,7 +64,7 @@
         <!-- end swiper-slide --> 
       </div>
       <!-- end swiper-wrapper -->
-      <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
+      <div class="header-box"> <b>15</b> <small>AÑOS DE EXPERIENCIA</small> </div>
       <!-- end header-box --> 
     </div>
     <!-- end slider-main --> 
@@ -173,8 +173,8 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
       <div class="swiper-slide">
         <figure class="project-box"> <a href="#"><img src="https://scontent.fsfn4-1.fna.fbcdn.net/v/t1.0-9/81520838_2470540676389886_8972994753670938624_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_eui2=AeHoTkUa6hPXxmxo34dF6eNIi3n2c3dbUJyLefZzd1tQnLM6OVhxtp8JOSxBsZ5k-rtzRYIn2TTEDDVcfPjOdzG9&_nc_ohc=oBzBP-noROwAX9zHy1J&_nc_ht=scontent.fsfn4-1.fna&oh=dd415899d1f693e836f8754907cf3306&oe=5F669A6E" alt="Image"></a>
           <figcaption>
-            <h5>Life Science Center</h5>
-            <p>The building opened in 2020 and includes more than 120+ flats</p>
+            <h5>Modelo 4539</h5>
+            <p>DORMITORIO DE 3.50 X 3.00 DORMITORIO DE 3.00 X 3.00. BAÑO DE 1.50 X 2.00</p>
           </figcaption>
         </figure>
       </div>
@@ -182,8 +182,8 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
       <div class="swiper-slide">
         <figure class="project-box"> <a href="#"><img src="https://scontent.fsfn4-1.fna.fbcdn.net/v/t1.0-9/78572584_2385812764862678_915929890727919616_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_eui2=AeETMLm7ONqYp5-XVTGSN0azlzyZOaBBVfCXPJk5oEFV8CcA7Kkn-bKZTg7IuDxeZEVeMlbFE2wl4Qgpxk7FAAPm&_nc_ohc=olkN8fcHL6gAX-EaFQh&_nc_ht=scontent.fsfn4-1.fna&oh=997b8b7da767adb5219075adc2c36b0c&oe=5F659B55" alt="Image"></a>
           <figcaption>
-            <h5>Life Science Center</h5>
-            <p>The building opened in 2020 and includes more than 120+ flats</p>
+            <h5>Modelo 1051</h5>
+            <p>DORMITORIO DE 3.00 X 3.00 DORMITORIO  DE 3.00 X 3.00. DORMITORIO.</p>
           </figcaption>
         </figure>
       </div>

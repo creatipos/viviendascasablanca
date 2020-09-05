@@ -63,13 +63,12 @@
     <div class="logo"> <a href="/"><img src="{!! asset('consto/') !!}/images/logo_vivi.png" alt="Image"></a> </div>
     <!-- end logo -->
     <div class="hide-mobile">
-      <p>Extremity direction existence as dashwoods do up. Securing <u>marianne led</u> welcomed offended but offering six raptures. </p>
-      <figure class="gallery"><img src="{!! asset('consto/') !!}/images/slide02.jpg" alt="Image"><img src="{!! asset('consto/') !!}/images/slide03.jpg" alt="Image"></figure>
-      <h6 class="widget-title">ADDRESS</h6>
+      <p>"Somos una empresa correntina, ofrecemos servicio de construcción, trabajamos en todo el norte del país, con financiación propia."</p>
+      <h6 class="widget-title">Dirección</h6>
       <address class="address">
-      <p>228 Cardigan Road, Leeds<br>
-        Geneva Switzerland</p>
-      <p>+1 (850) 344 0 66 #20</p>
+      <p>Fray Cayetano Rodríguez 1573<br>
+      Corrientes, Capital</p>
+      <p>+54 0379 502-1355</p>
       </address>
       <h6 class="widget-title">FOLLOW US</h6>
       <ul class="social-media">
@@ -195,7 +194,7 @@
       </div>
       <!-- end col-4 -->
       <div class="col-12">
-        <div class="footer-bottom"> <span>© 2020 Consto | Industrial Construction Company</span>
+        <div class="footer-bottom"> <span>© 2020  <a style="color: #fff;" href="https://creatipos.com.ar/" >Diseño web corrientes</a></span>
           <ul>
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Instagram</a></li>
