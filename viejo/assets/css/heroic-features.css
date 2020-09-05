@@ -1,0 +1,178 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 130px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.jumbotron {
+
+    border-radius: 0px!important;
+        background-color: #373837;
+            margin-bottom: 0px;
+
+}
+.btn-default{
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+	
+}
+.custom-search-form{
+
+
+    max-width: 328px;
+    float: right;
+         margin-top: 25px;
+
+}
+
+.form-control{
+
+
+    background-color: #eeeeee;
+    border: 0px solid #eeeeee;
+    border-radius: 0px;
+
+}
+.jumbotron p{
+
+font-style: italic;
+font-size: 17px;
+
+}
+
+  .navbar-nav{
+
+float: right;
+    font-weight: 600;
+
+  }  
+
+    .navbar-nav li a{
+
+color: #000!important;
+
+  }
+.navbar-brand{
+
+    padding-top: 0;
+
+
+}
+.gris{
+
+
+background-color: #f0f0f0;
+
+}
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+h2{
+
+    font-size: 20px;
+        margin-top: 0;
+
+}
+.navbar {
+ 
+    min-height: auto;
+
+}
+
+.diariolista li{
+
+    display: inline;
+        margin-right: 20px;
+}
+.diariolista li img{
+
+    margin-bottom: 10px;
+}
+.diariolista {
+
+ padding: 0;
+}
+    
+.negro{
+
+color: #000;
+
+}
+.navbar-brand {
+    float: left;
+   height: auto;
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.top{
+
+padding: 10px;
+
+}
+
+.blanco{
+
+color: #fff;
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+ .categoriasdi .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+ .categoriasdi .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+ .categoriasdi .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.categoriasdi .navbar
+{
+    max-width:300px;
+    margin-right: 0;
+    margin-left: 0;
+}   
+
+.categoriasdi .navbar-nav,
+.categoriasdi .navbar-nav > li,
+.categoriasdi .navbar-left,
+.categoriasdi .navbar-right,
+.categoriasdi .navbar-header
+{float:none !important;}
+
+.categoriasdi .navbar-right .dropdown-menu {left:0;right:auto;}
+.categoriasdi .navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}

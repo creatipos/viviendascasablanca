@@ -1,0 +1,48 @@
+html,
+body{background-color:#000000;background-image:url('http://clickcorrientes.com/wp-content/uploads/2015/08/body-bg7.png');background-attachment:fixed;}
+body{padding-top:50px;}
+.img-portfolio{margin-bottom:30px;}
+.img-hover:hover{opacity:0.8;}
+header.carousel{height:50%;}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner{height:100%;}
+header.carousel .fill{width:100%;height:100%;background-position:center;background-size:cover;}
+.error-404{font-size:100px;}
+.price{display:block;font-size:50px;line-height:50px;}
+.price sup{top:-20px;left:2px;font-size:20px;}
+.period{display:block;font-style:italic;}
+footer{margin:50px 0;}
+@media(max-width:991px){.customer-img,
+.img-related{margin-bottom:30px;}
+}
+@media(max-width:767px){.img-portfolio{margin-bottom:15px;}
+header.carousel .carousel{height:70%;}
+}
+.cabecerafan{}
+.fondocabecera{background-image:url(../corazon-de-amor-2210.jpg);min-height:427px;background-repeat:no-repeat;background-size:cover;padding:0px;}
+.fondocabecera1{padding:0px;min-height:427px;background:#000;}
+#perfil{margin:0 auto;width:160px;height:160px;border:10px solid rgba(255, 255, 255, 0.4);display:block;}
+@media (max-width:1200px){.fondocabecera1{width:100% !important;}
+.fondocabecera{width:100% !important;display:none;}
+.cabe2{display:block !important;}
+}
+#myTab li a{border-radius:0px;border-bottom:0px solid #ddd;}
+#myTab{background:#fff;}
+#ad-source{-webkit-flow-into:ads;-ms-flow-into:ads;}
+.votebox{display:none;min-width:62px;float:left;background:none repeat scroll 0 0 rgba(0, 0, 0, 0.7);border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;box-shadow:0 1px 2px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.5);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.5);position:absolute;top:10px;margin:0px !important;}
+.vote{padding:4px 3px;}
+.votenumber{font-size:2.0em;text-align:center;line-height:1.3;color:white;margin:0 0 4px;padding:0;}
+.btn-mini{background:none repeat scroll 0 0 rgba(255, 255, 255, 0.8);float:left;margin:0 1px;padding:1px 5px;}
+.caption2:hover{opacity:1;background-color:rgba(0,0,0,0.7);}
+.content-panel{background:#ffffff;box-shadow:0px 3px 2px #aab2bd;padding-top:15px;padding-bottom:5px;}
+.pn{height:250px;box-shadow:0 2px 1px rgba(0, 0, 0, 0.2);}
+#spotify{background:url(https://scontent-gru1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11009961_924999200894761_6637352745105686940_n.jpg?oh=38dcb965c17c86f9665b1dcd9a5d2816&oe=56206898) no-repeat center top;margin-top:-15px;background-attachment:relative;background-position:center center;min-height:220px;width:100%;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+.followers{margin-left:5px;margin-top:5px;}
+#spotify .btn-clear-g{top:15%;right:10px;position:absolute;margin-top:5px;}
+.btn-clear-g{color:#48bcb4;background:transparent;border-color:#48bcb4;}
+.btn-sm, .btn-group-sm > .btn{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px;}
+#spotify .sp-title{bottom:15%;left:25px;position:absolute;color:#efefef;}
+#spotify .sp-title h3{font-weight:900;}
+#spotify .play{bottom:18%;right:25px;position:absolute;color:#efefef;font-size:20px;}
+.mb{margin-bottom:25px;}
