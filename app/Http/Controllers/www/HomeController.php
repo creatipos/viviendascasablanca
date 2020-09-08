@@ -36,7 +36,7 @@ class HomeController extends Controller
 
         $data['noticias_col2']=Noticias::orderBy('id', 'desc')->skip(1)->take(2)->get();
 
-        $instaResult = file_get_contents('https://www.instagram.com/viviendas_casablanca/?__a=1');
+        $instaResult = $this->curl_get_contents('https://www.instagram.com/viviendas_casablanca/?__a=1');
         $data['insta'] = json_decode($instaResult);
 
 
@@ -44,6 +44,18 @@ class HomeController extends Controller
         return view('www/home',$data);
 
     }
+
+    public function curl_get_contents($url)
+{
+  $ch = curl_init($url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+  $data = curl_exec($ch);
+  curl_close($ch);
+  return $data;
+}
 
 
     public function modelos()
