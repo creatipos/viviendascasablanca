@@ -36,7 +36,8 @@ class HomeController extends Controller
 
         $data['noticias_col2']=Noticias::orderBy('id', 'desc')->skip(1)->take(2)->get();
 
-
+        $instaResult = file_get_contents('https://www.instagram.com/viviendas_casablanca/?__a=1');
+        $data['insta'] = json_decode($instaResult);
 
 
 
@@ -105,7 +106,7 @@ class HomeController extends Controller
     { 
 
               //  Send mail to admin
-              \Mail::send('mail', array(
+             $hola= \Mail::send('mail', array(
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
                 'phone' => $request->get('cel'),
@@ -116,7 +117,7 @@ class HomeController extends Controller
                 $message->to('contacto@viviendascasablanca.com.ar', 'Admin')->subject('Contacto desde la web');
             });
     
-            return back()->with('success', 'Su mensaje se envio correctamente, nos pondremos en contacto con usted.');
+            return back()->with('success', 'Su mensaje se envio correctamente, nos pondremos en contacto con usted. '.$hola);
 
 
     }
