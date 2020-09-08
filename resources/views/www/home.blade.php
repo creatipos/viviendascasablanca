@@ -171,7 +171,7 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
   <div class="swiper-container project-slider">
     <div class="swiper-wrapper">
 
-    @foreach ($insta->graphql->user->edge_owner_to_timeline_media->edges as $post)
+    <!-- @foreach ($insta->graphql->user->edge_owner_to_timeline_media->edges as $post)
       <div class="swiper-slide">
         <figure class="project-box"> <a href="#"><img src="{{$post->node->display_url}}" alt="Image"></a>
           <figcaption>
@@ -181,7 +181,7 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
         </figure>
       </div>
 
-     @endforeach
+     @endforeach -->
       <!-- end swiper-slide -->
     </div>
     <!-- Add Pagination -->
