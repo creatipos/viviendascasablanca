@@ -12,7 +12,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="inner">
-            <h1>Vivienda <b>Prefabricadas</b></h1>
+            <h1>Vivienda <b>Industriales</b></h1>
             
             <a href="#">VER MAS  <i class="lni lni-arrow-right"></i></a> </div>
           <!-- end inner --> 
