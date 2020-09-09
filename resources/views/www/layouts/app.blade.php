@@ -260,7 +260,7 @@
     (function () {
         var options = {
             facebook: "259320330845276", // Facebook page ID
-            whatsapp: "+543794 394235", // WhatsApp number
+            whatsapp: "+5403795021355", // WhatsApp number
             call_to_action: "Contactanos", // Call to action
             button_color: "#E74339", // Color of button
             position: "right", // Position may be 'right' or 'left'
