@@ -50,18 +50,16 @@
     <!-- end slider-content -->
     <div class="swiper-container slider-main">
       <div class="swiper-wrapper">
+
+      @foreach ($modelos as $modelo)
         <div class="swiper-slide">
-          <div class="slide-image" data-background="http://www.viviendascasablanca.com.ar/assets/public/img/MOD_1030.png"></div>
+          <div class="slide-image" data-background="{{ Request::root() }}/images/modelos/{{ $modelo->imgs[0]->media->path }}"></div>
+          
         </div>
+        @endforeach
         <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <div class="slide-image" data-background="http://www.viviendascasablanca.com.ar/uploads/imagenes/31102018-094705"></div>
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <div class="slide-image" data-background="http://www.viviendascasablanca.com.ar/uploads/imagenes/11289027_1003150569710040_4930144712019082527_o.jpg"></div>
-        </div>
-        <!-- end swiper-slide --> 
+
+    
       </div>
       <!-- end swiper-wrapper -->
       <div class="header-box"> <b>15</b> <small>AÑOS DE EXPERIENCIA</small> </div>

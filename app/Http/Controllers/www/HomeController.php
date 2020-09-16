@@ -36,6 +36,8 @@ class HomeController extends Controller
 
         $data['noticias_col2']=Noticias::orderBy('id', 'desc')->skip(1)->take(2)->get();
 
+        $data['modelos']=Modelos::where('destacada','1')->orderBy('id', 'desc')->get();
+
         $instaResult = $this->curl_get_contents('https://www.instagram.com/viviendas_casablanca/?__a=1');
        
         $data['insta'] = json_decode($instaResult);
