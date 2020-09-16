@@ -166,7 +166,7 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
     <!-- end row --> 
   </div>
   <!-- end container -->
-  <div class="swiper-container project-slider">
+  <div class="swiper-container ">
     <div class="swiper-wrapper">
 
 
