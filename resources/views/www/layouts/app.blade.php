@@ -194,7 +194,7 @@
       <!-- end col-4 -->
       <div class="col-lg-4 col-md-6">
       <h6 class="widget-title">Ubicacion</h6>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.688035005274!2d-58.798393584943!3d-27.478969982886994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b0f36f3280b%3A0xa20aa6f8b2a53608!2sPje.%20Fray%20Cayetano%20Rodriguez%201573%2C%20W3402%20Corrientes!5e0!3m2!1ses!2sar!4v1597973684210!5m2!1ses!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d442.45073914898927!2d-58.79636749196552!3d-27.48152568464293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b08f16e47a7%3A0xbc04f49c6b85ad2f!2sViviendas%20Casablanca!5e0!3m2!1ses!2sar!4v1600293898198!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <!-- end col-4 -->
       <div class="col-lg-4">
