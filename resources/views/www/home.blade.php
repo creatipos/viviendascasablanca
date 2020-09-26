@@ -53,7 +53,7 @@
 
       @foreach ($modelos as $modelo)
         <div class="swiper-slide">
-          <div class="slide-image" data-background="{{ Request::root() }}/images/modelos/{{ $modelo->imgs[0]->media->path }}"></div>
+          <div class="slide-image" data-background="{{ Request::root() }}/images/modelos/{{ $modelo->imgs[0]->file }}"></div>
           
         </div>
         @endforeach
