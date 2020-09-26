@@ -114,6 +114,7 @@ class ModelosController extends Controller
                 $Modelos_img = Modelos_img::create([
                     'multimedia_id' => $multimedia->id,
                     'modelos_id' => $Modelos->id,
+                    'file' => $value,
                     
                 ]);
 
