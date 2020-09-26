@@ -298,8 +298,8 @@ class ModelosController extends Controller
                 $ext = "jpg";
             }
             list($width, $height) = getimagesize($image);
-            $rand = str_random(16);
-            $file_name = date('dmYs').'.'.$ext;
+            $rand = str_random(3);
+            $file_name =  $rand.date('dmYs').'.'.$ext;
             if(!File::exists($path)){
                 File::makeDirectory($path,0777,true);
             }
@@ -322,8 +322,8 @@ class ModelosController extends Controller
             $imageBase64 = $imageBase64->output->image;
             $imageAux = Image::make($imageBase64);
             $ext = "jpg";
-            $rand = str_random(16);
-            $file_name = date('dmYs').'.'.$ext;
+            $rand = str_random(3);
+            $file_name = $rand.date('dmYs').'.'.$ext;
             $imageAux->save($path.$file_name, 60);
 
             return $file_name;
