@@ -32,7 +32,7 @@
 
                     <tr class="gradeX">
                         <td>{{ $noticia->id }}</td>
-                        <td><img src="{{ Request::root() }}/images/modelos/{{ $noticia->imgs[0]->media->path }}" style="    width: 100px;"></td>
+                        <td><img src="{{ Request::root() }}/images/modelos/{{ $noticia->imgs[0]->file }}" style="    width: 100px;"></td>
                         <td>{{ $noticia->titulo }}</td>
                         <td class="center">{{ $noticia->copete }}</td>
                         <td class="center">
