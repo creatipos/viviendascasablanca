@@ -280,7 +280,7 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
             <div class="recent-news">
               <figure> <img src="{!! asset('images/') !!}/news/{{ $noticia->img }}" alt="Image"> </figure>
               <div class="content"> <small>29 February, 2020</small>
-                <h3><a href="{{ Request::root() }}/{{ $noticia->slug }}">Challenge I participated in as a guest on all font</a></h3>
+                <h3><a href="{{ Request::root() }}/{{ $noticia->slug }}">{{ $noticia->titulo }}</a></h3>
                 <div class="author"> <img src="{!! asset('consto/') !!}/images/author01.jpg" alt="Image"> <span>by <b>Admin</b></span> </div>
                 <!-- end author --> 
               </div>
