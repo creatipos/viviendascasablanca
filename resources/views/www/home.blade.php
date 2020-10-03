@@ -305,7 +305,22 @@ Nuestra experiencia de más de 5 años en el rubro nos permite conocer a fondo e
 
 <!-- end content-section -->
 
+<div class="modal fade" id="global-modal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!--Modal Content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" style="margin-top: -16px; font-size: 28px;" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
 
+      </div>
+      <div class="modal-body" style="padding: 0;">
+        <img class="img-full img-responsive" src="https://scontent.fcor5-1.fna.fbcdn.net/v/t1.0-9/120269848_3103354496441831_4275782235231128095_o.jpg?_nc_cat=104&_nc_sid=a26aad&_nc_ohc=I9pog0WeUoIAX-p-VnY&_nc_ht=scontent.fcor5-1.fna&oh=e0ea33d50223798d55ce8e1761a653ee&oe=5F9E3691">
+      </div>
+    </div>
+  </div>
+</div>
 
 
 @endsection

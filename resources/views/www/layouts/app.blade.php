@@ -271,6 +271,11 @@
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
+
+    $(document).ready(function() {
+  $('#global-modal').modal('show');
+});
+
 </script>
 <!-- /GetButton.io widget -->
 </body>
