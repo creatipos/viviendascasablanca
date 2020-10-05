@@ -17,22 +17,17 @@
             <a href="#">VER MAS  <i class="lni lni-arrow-right"></i></a> </div>
           <!-- end inner --> 
         </div>
-        <!-- end swiper-slide -->
+
+        @foreach ($modelos as $modelo)
         <div class="swiper-slide">
-          <div class="inner">
-            <h2>VIVIENDA <b>1038</b></h2>
+        <div class="inner">
+            <h2>{{$modelo->titulo}}</b></h2>
            
             <a href="#">VER MAS <i class="lni lni-arrow-right"></i></a> </div>
-          <!-- end inner --> 
+          
         </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <div class="inner">
-            <h2>VIVIENDA <b>1055</b></h2>
-           
-            <a href="#">VER MAS <i class="lni lni-arrow-right"></i></a> </div>
-          <!-- end inner --> 
-        </div>
+        @endforeach
+
         <!-- end swiper-slide --> 
       </div>
       <!-- end swiper-wrapper -->
