@@ -75,6 +75,23 @@ class HomeController extends Controller
 
     }
 
+    public function modelo($id)
+    {
+
+        setlocale(LC_TIME, 'es_ES');
+
+     
+
+        $data['modelo'] = Modelos::where('id',$id)->get();
+
+     
+
+
+
+        return view('www/modelo',$data);
+
+    }
+
 
 
 

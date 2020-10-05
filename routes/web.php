@@ -58,6 +58,8 @@ Route::group(['prefix' => 'admin/modelos'], function () {
     
     Route::get("/modelos", "www\HomeController@modelos")->name("homep"); 
 
+    Route::get("/modelo/{id}", "www\HomeController@modelo")->name("modelo"); 
+
     Route::get("/cron/dolar", "www\HomeController@cron")->name("homep"); 
     Route::get("/cron/tend", "www\HomeController@cron_google")->name("homeps"); 
 

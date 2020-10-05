@@ -37,7 +37,7 @@
 			<ul class="projects">
 			@foreach($modelos as $modelo)
 				<li class="one">
-				 <figure class="project-box"> <a href="#"><img src="{{ Request::root() }}/images/modelos/{{ $modelo->imgs[0]->file}}" alt="Image"></a>
+				 <figure class="project-box"> <a href="{{ Request::root() }}/modelo/{{$modelo->id}}"><img src="{{ Request::root() }}/images/modelos/{{ $modelo->imgs[0]->file}}" alt="Image"></a>
           <figcaption>
             <h5>{{$modelo->titulo}}</h5>
           </figcaption>
