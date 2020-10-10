@@ -90,24 +90,19 @@
     <div class="show-mobile">
 
 
-      <div class="site-menu">
-        <ul>
-          <li><a href="#">Consto</a><i class="lni lni-chevron-down-circle"></i>
-            <ul>
-              <li><a href="about-company.html">About Company</a></li>
-              <li><a href="core-values.html">Core Values</a></li>
-              <li><a href="leadership.html">Leadership</a></li>
-              <li><a href="our-history.html">Our History</a></li>
-              <li><a href="offices.html">Offices</a></li>
-              <li><a href="certificates.html">Certificates</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+    <div class="site-menu">
+      <ul>
+        <li><a href="#">Quienes Somos</a>
+          <ul>
+            <li><a href="#">Que hacemos</a></li>
+          </ul>
+        </li>
+        <li><a href="../modelos">Modelos</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Novedades</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </div>
       <!-- end site-menu --> 
     </div>
     <!-- end show-mobile --> 
